@@ -1,0 +1,40 @@
+
+
+body {
+    
+   
+}
+
+.text {
+    width: 800px;
+}
+.wrapper {
+    background: white;
+    width: 800px;
+    height: 200px;
+    border: 4px solid black;
+    justify-items: center;
+    font-family: sans-serif;
+    border-radius: 30px;
+
+}
+
+.container {
+   text-align: center;
+}
+
+.elemento {
+    background: red;
+    border: 2px solid black;
+
+    transition-timing-function: ease;
+    transition-duration: 1s;
+
+    
+}
+
+.elemento:hover {
+    border-radius: 30%;
+    transform: translateX(40px);
+
+}
